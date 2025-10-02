@@ -64,3 +64,8 @@ console.log(list.size()); // 3
 * isEmpty() — Returns true if the list is empty
 * clear() — Removes all nodes from the list
 * print() — Logs the list to the console
+
+## Notes
+* The list supports any type of data, including numbers, strings, or objects.
+* Sorting is done in-place by swapping node data, not the nodes themselves.
+* Default equality check is Object.is, but a custom function can be passed to remove.
